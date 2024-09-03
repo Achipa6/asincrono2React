@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'popins' ;
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.seccionUno-0{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 0 0;
+}
+.seccionUno-1{
+    width: 100%;
+    background-color: rgb(243, 23, 140);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;  
+    padding: 0 0 5rem 0;
+  
+}
+.seccionUno-2{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;  
+    padding: 0 0 5rem 0;
+}
+.seccionUno-3{
+    width: 100%;
+    background-color: rgb(250, 197, 22);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;  
+    padding: 5rem 0 0 0;
+}
+.seccionUno-4{
+    width: 100%;
+    background-color: rgb(96, 13, 251);
+    display: flex;
+    justify-content: center;  
+    padding: 5rem 0 0 0;
+}
+.parrafos{
+    width: 30rem;
+    height: 30rem;
+}
+.claseDos{
+    background-color: rgb(219, 183, 219);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    padding: 2rem 25rem;
+    justify-content: center;
+    
+}
+.cards{
+    width: 15rem;
+}
+.titulo{
+    margin:2rem 18rem;
+    font-family: 'popins';
+}
+.claseTres{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    padding: 2rem 25rem;
+    justify-content: center;
+}
+.texto{
+    width: 15rem;
+    
+    
+    
+}
