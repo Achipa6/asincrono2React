@@ -20,7 +20,7 @@ function SeccionUno() {
         },
         signal: controller.signal
     }
-    fetch(VITE_API+"productos", options)
+    fetch(VITE_API, options)
     .then(resp =>resp.json())
     .then(datos =>setSeccionUno(datos))
     .catch(err=>console.log(err))
